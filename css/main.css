@@ -184,6 +184,12 @@
     text-align: center;
     opacity: 0.55;
   }
+
+  footer .lottiePlayer{
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+  }
   
   @media (max-width: 768px) {
     header {
