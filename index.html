@@ -13,9 +13,10 @@
 <body>
   <main>
     <header>
+      <div id="particles-js"></div>
       <img src="images/avatar.jpg" alt="Avatar" class="avatar">
       <div class="header-content">
-        <h1>Hi 🖐<br />My name is Shubhankar Mahajan</h1>
+        <h1>Hi 🖐<br />I'am Shubhankar Mahajan</h1>
         <div class="subtitle">
           UX/UI <span class="dot">•</span>
           Front-end Developer <span class="dot">•</span>
@@ -154,21 +155,29 @@
       ></codersrank-portfolio>
     </section>
     <section>
-      <h2>Work Experience & Education</h2>
+      <h2>Work Experience</h2>
       <codersrank-work-experience
         class="widget"
         username="shubhcode12"
         logos
+        grid="true"
         branding="false"
+        style="--grid-columns: 1;"
       ></codersrank-work-experience>
+     
+    </section>
+
+    <section>
+      <h2>Education</h2>
       <codersrank-education
-        class="widget"
-        username="shubhcode12"
-        branding="false"
-      ></codersrank-education>
+      class="widget"
+      username="shubhcode12"
+      branding="false"
+    ></codersrank-education>
     </section>
 
     <footer>
+      
       <div class="lottiePlayer">
         <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_hsjuhntt.json" background="transparent"  speed="1"  style="width: 300px; height: 300px; text-align: center;"  loop autoplay></lottie-player>
       </div>
@@ -185,11 +194,15 @@
   <script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
   <script src='https://threejs.org/examples/js/libs/stats.min.js'></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  
+  
+  <script src="js/particles.js"></script>
+  <!-- <script src="js/app.js"></script>  -->
+
   <script src="./script.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
+
   
 </body>
 </html>
