@@ -12,7 +12,7 @@
     font-size: 16px;
     line-height: 1.5;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    background: #000;
+    background: #161a1d;
     color: #fff;
   }
   a {
@@ -115,7 +115,7 @@
   }
   codersrank-summary {
     --bg-color: transparent;
-    --badge-bg-color: #161616;
+    --badge-bg-color: #1e23279c;
     --badge-text-color: #fff;
     --badges-padding: 0px;
     --badge-padding: 8px;
@@ -125,16 +125,17 @@
     --badge-technology-font-size: 18px;
     --badge-location-font-size: 16px;
     --badge-icon-size: 32px;
-    --badge-border: 1px solid rgba(0, 0, 0, 0.1);
+    --badge-border: 0px solid rgba(0, 0, 0, 0.1);
     --badge-box-shadow: none;
+    --header-bg-color: #C54F2F;
   }
   .activity-widget {
     padding: 8px;
     border-radius: 8px;
-    background: #161616;
+    background: #1e23279c;
   }
   codersrank-activity {
-    --bg-color-0: #111;
+    --bg-color-0: #1e23279c;
     --bg-color-1: rgba(var(--theme-color-rgb), 0.25);
     --bg-color-2: rgba(var(--theme-color-rgb), 0.5);
     --bg-color-3: rgba(var(--theme-color-rgb), 0.75);
@@ -149,7 +150,7 @@
   }
   codersrank-skills-chart {
     --label-text-color: rgba(255, 255, 255, 0.54);
-    --chart-bg-color: #161616;
+    --chart-bg-color: #1e23279c;
     --chart-border-radius: 8px;
     --axis-bg-color: transparent;
     --label-font-size: 12px;
@@ -158,7 +159,7 @@
   codersrank-portfolio,
   codersrank-work-experience,
   codersrank-education {
-    --item-bg-color: #161616;
+    --item-bg-color: #1e23279c; 
     --item-border-radius: 8px;
     --item-spacing: 16px;
     --item-padding: 16px;
